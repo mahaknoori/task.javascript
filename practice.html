@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <input id="x" type="number" placeholder="First number">
+  <input id="y" type="number" placeholder="Second number">
+  <br><br>
+
+  <button onclick="res.value = +x.value + +y.value">+</button>
+  <button onclick="res.value = x.value - y.value">-</button>
+  <button onclick="res.value = x.value * y.value">*</button>
+  <button onclick="res.value = y.value != 0 ? x.value / y.value : 'Error'">/</button>
+
+  <br><br>
+  <input id="res" placeholder="Result" readonly>
+
+</body>
+</html>
+
+
